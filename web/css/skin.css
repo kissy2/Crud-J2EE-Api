@@ -1,0 +1,161 @@
+html { 
+    background: url("bg0.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+#tab{visibility: hidden; border-spacing: 5pt; border: 3px double black;}
+table{border-spacing: 25pt;border: 0px;display: inline-table;}
+body { 
+text-align: center;
+}
+#tab td{border: 1px solid black;padding: 5px;}
+
+#tab th{border: 1px solid black;padding: 5px}
+.no{color: red;;font-size: 18pt;}
+.yes{color:  #4CAF50;font-size: 18pt;}
+input[type=submit] {
+    font-size: 16px;
+  background-color: rgb(28, 184, 65);
+  border-radius: 14px 14px 14px 14px;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+    font-size: 16px;
+  background-color: rgb(202, 60, 60);
+  border-radius: 14px 14px 14px 14px;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+    .button {
+        
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #E9967A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px 55px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.home {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home:hover {opacity: 1}
+
+
+#rock0 {
+    
+
+    background-image: url(cart1.png);
+    background-repeat: no-repeat;
+}
+#rock {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 14px;
+  font-size: 19px; 
+  cursor: pointer; 
+  border-radius: 17px;
+}
+
+#rock:hover {
+  background-color: RoyalBlue;
+}
+
+
+.sharplink {
+    background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sharplink:hover {
+  background-color: #ce0606;
+}
+
+.sharplink:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+
+#home{float:left; left:0px; top:2px;}
+#home1{float:right; right:0px; top:2px;}
+
+
+.vl {
+  border-bottom: 2px solid background;
+ height: 3px;
+  width: 150px;
+  
+}
+
+
+
+input[type=number]{
+    width: 190px;
+}
+
+#pri{width: 205px;}
+#qtn{width: 215px;}
